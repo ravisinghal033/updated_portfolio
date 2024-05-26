@@ -568,8 +568,8 @@ $(document).ready(function () {
         logo_.timeScale(1.1).reverse();
     });
 
-    //var logohover = new Howl({ src: ["sounds/clicks.mp3"] });
-    //var introweb = new Howl({ src: ["sounds/intro.mp3"] });
-    // var clicks = new Howl({ src: ["sounds/logo-hover.mp3"] });
-    // introweb.play();
+    var logohover = new Howl({ src: ["sounds/clicks.mp3"] });
+    var introweb = new Howl({ src: ["sounds/intro.mp3"] });
+     var clicks = new Howl({ src: ["sounds/logo-hover.mp3"] });
+     introweb.play();
 });
